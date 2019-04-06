@@ -19,5 +19,3 @@ export const appendCommand = (filePath: string, content: string) =>
     filterCommand,
     execute
   )(filePath, content)
-
-
