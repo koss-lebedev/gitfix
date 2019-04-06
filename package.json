@@ -1,9 +1,17 @@
 {
   "name": "gitfix",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "CLI for performing destructive Git cleanup",
-  "author": "Konstantin Lebedev <koss.lebedev@gmail.com>",
-  "main": "lib/index.js",
+  "author": "Konstantin Lebedev @koss-lebedev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koss-lebedev/gitfix.git"
+  },
+  "bugs": {
+    "url": "https://github.com/koss-lebedev/gitfix/issues"
+  },
+  "homepage": "https://github.com/koss-lebedev/gitfix#README",
+  "main": "lib/cli.js",
   "files": [
     "lib",
     "bin"
